@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstLikeApp.Model", "InstLikeApp.Model\InstLikeApp.Model.csproj", "{5D377A61-4966-4AA2-B888-98368AC8FE00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstLikeApp.DataLayer.Sql", "InstLikeApp.DataLayer.Sql\InstLikeApp.DataLayer.Sql.csproj", "{E38F94A2-1DE7-4266-978E-9E89B076234B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{706608DC-315C-4CFA-AC99-468998651E5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstLikeApp.Tests", "InstLikeApp.Tests\InstLikeApp.Tests.csproj", "{95B94505-51D8-4FD0-8596-CB0F435119EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstLikeApp.WebApi", "InstLikeApp.WebApi\InstLikeApp.WebApi.csproj", "{45F37D7A-7964-49BF-AEFB-3EDB63CF1691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstLikeApp.Client", "InstLikeApp.Client\InstLikeApp.Client.csproj", "{11F5642E-413E-4FB9-BAE3-C4106F550662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstLikeApp.Log", "InstLikeApp.Log\InstLikeApp.Log.csproj", "{5AA61ECD-D8F6-4B1A-BE0F-7415E459BB84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D377A61-4966-4AA2-B888-98368AC8FE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D377A61-4966-4AA2-B888-98368AC8FE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D377A61-4966-4AA2-B888-98368AC8FE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D377A61-4966-4AA2-B888-98368AC8FE00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E38F94A2-1DE7-4266-978E-9E89B076234B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38F94A2-1DE7-4266-978E-9E89B076234B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38F94A2-1DE7-4266-978E-9E89B076234B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38F94A2-1DE7-4266-978E-9E89B076234B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B94505-51D8-4FD0-8596-CB0F435119EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B94505-51D8-4FD0-8596-CB0F435119EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B94505-51D8-4FD0-8596-CB0F435119EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B94505-51D8-4FD0-8596-CB0F435119EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F37D7A-7964-49BF-AEFB-3EDB63CF1691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F37D7A-7964-49BF-AEFB-3EDB63CF1691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F37D7A-7964-49BF-AEFB-3EDB63CF1691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F37D7A-7964-49BF-AEFB-3EDB63CF1691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F5642E-413E-4FB9-BAE3-C4106F550662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F5642E-413E-4FB9-BAE3-C4106F550662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F5642E-413E-4FB9-BAE3-C4106F550662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F5642E-413E-4FB9-BAE3-C4106F550662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA61ECD-D8F6-4B1A-BE0F-7415E459BB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA61ECD-D8F6-4B1A-BE0F-7415E459BB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA61ECD-D8F6-4B1A-BE0F-7415E459BB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA61ECD-D8F6-4B1A-BE0F-7415E459BB84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95B94505-51D8-4FD0-8596-CB0F435119EC} = {706608DC-315C-4CFA-AC99-468998651E5F}
+	EndGlobalSection
+EndGlobal
